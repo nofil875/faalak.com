@@ -25,7 +25,7 @@ const Hero = () => {
         viewport={{ once: true }}
         className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl"
       >
-        AI Voice Agents & Chatbots That Never Miss a Lead
+        Faalak AI: Orbiting Your Customer Support 24/7
       </motion.h1>
 
       <motion.p
@@ -35,7 +35,7 @@ const Hero = () => {
         viewport={{ once: true }}
         className="text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3"
       >
-        Continuous workflows. Flawless communication. Bringing the universe of conversational AI to your business. Never miss a call. Never lose a lead.
+        We build intelligent voice agents and automated chatbots that speak like humans and scale like software.
       </motion.p>
 
       <motion.div
@@ -69,11 +69,11 @@ const Hero = () => {
         className="flex flex-wrap items-center justify-center gap-3 text-sm"
       >
         {[
-          "24/7 AI Receptionist",
-          "WhatsApp Automation",
-          "Website Chatbots",
-          "AI Phone Calls",
-          "CRM Integrations",
+          "Continuous workflows.",
+          "Flawless communication.",
+          "Bringing the universe of conversational AI to your business.",
+          "Never miss a call. Never lose a lead.",
+        
         ].map((badge) => (
           <span
             key={badge}
