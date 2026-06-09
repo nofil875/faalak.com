@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
@@ -110,6 +111,16 @@ const App = () => {
       <OurWork />
       <Teams />
       <Footer theme={theme} />
+
+      <a
+        href="https://wa.me/14169104547?text=Hi%2C%20I%20would%20like%20to%20book%20a%20consultation%20with%20Faalak%20AI%20Automation."
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Chat on WhatsApp"
+        className="fixed bottom-5 left-5 z-[9998] flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] shadow-[0_10px_25px_rgba(37,211,102,0.35)] transition hover:scale-105 hover:shadow-[0_12px_30px_rgba(37,211,102,0.45)]"
+      >
+        <FaWhatsapp className="text-2xl text-white" />
+      </a>
 
       {/* Custom Cursor Ring */}
       <div
