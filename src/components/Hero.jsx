@@ -35,7 +35,7 @@ const Hero = () => {
         viewport={{ once: true }}
         className="text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3"
       >
-        We help businesses automate calls, WhatsApp conversations, website chats, appointment booking, and lead qualification using AI.
+        Continuous workflows. Flawless communication. Bringing the universe of conversational AI to your business. Never miss a call. Never lose a lead.
       </motion.p>
 
       <motion.div
